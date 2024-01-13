@@ -5,6 +5,8 @@ const http = require("http");
 const app = express();
 const server = http.createServer(app);
 
+//make join room logic
+
 import { Server } from "socket.io";
 
 const io = new Server(server, {
